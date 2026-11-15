@@ -19,7 +19,7 @@ BG, FG, ACCENT, TIME = "#1e1e2e", "#cdd6f4", "#89b4fa", 15
 class QuizApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Quiz Master")
+        self.title("Quiz App")
         self.geometry("560x440")
         self.resizable(False, False)
         self.configure(bg=BG)
@@ -35,7 +35,7 @@ class QuizApp(tk.Tk):
 
     def show_start(self):
         self.clear()
-        self.label("Quiz Master", 32, True, ACCENT).pack(pady=(90, 10))
+        self.label("Quiz App", 32, True, ACCENT).pack(pady=(90, 10))
         self.label(f"{len(QUESTIONS)} questions  •  {TIME}s each").pack()
         tk.Button(self, text="Start Quiz", font=("Helvetica", 14, "bold"),
                   bg=ACCENT, fg=BG, width=14, relief="flat",

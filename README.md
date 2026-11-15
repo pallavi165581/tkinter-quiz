@@ -1,4 +1,4 @@
-# Quiz Master
+# Quiz App
 
 A timed multiple-choice quiz app built with **tkinter** — frontend only,
 no backend, no database. All data lives in memory.
